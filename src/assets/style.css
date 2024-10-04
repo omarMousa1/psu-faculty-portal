@@ -672,8 +672,24 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-9 {
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
+.place-content-between {
+  place-content: space-between;
+}
+
+.place-content-evenly {
+  place-content: space-evenly;
 }
 
 .place-items-center {
@@ -832,6 +848,10 @@ video {
   padding: 1.5rem;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -855,6 +875,16 @@ video {
 .py-\[2px\] {
   padding-top: 2px;
   padding-bottom: 2px;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-\[8px\] {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .pb-\[5px\] {
@@ -983,9 +1013,29 @@ video {
     width: 15rem;
   }
 
+  .sm\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .sm\:py-\[1px\] {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-red-600 {
+    --tw-text-opacity: 1;
+    color: rgb(220 38 38 / var(--tw-text-opacity));
+  }
+
+  .sm\:text-purple-600 {
+    --tw-text-opacity: 1;
+    color: rgb(147 51 234 / var(--tw-text-opacity));
   }
 }
 
@@ -1089,12 +1139,26 @@ video {
     padding-bottom: 1px;
   }
 
+  .md\:py-\[2px\] {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .md\:py-\[8px\] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
   .md\:pb-\[4px\] {
     padding-bottom: 4px;
   }
 
   .md\:pt-\[4px\] {
     padding-top: 4px;
+  }
+
+  .md\:pt-\[3px\] {
+    padding-top: 3px;
   }
 
   .md\:text-2xl {
@@ -1104,6 +1168,11 @@ video {
 
   .md\:font-light {
     font-weight: 300;
+  }
+
+  .md\:text-red-600 {
+    --tw-text-opacity: 1;
+    color: rgb(220 38 38 / var(--tw-text-opacity));
   }
 }
 
@@ -1209,12 +1278,21 @@ video {
     padding-bottom: 1px;
   }
 
+  .lg\:py-\[8px\] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
   .lg\:pb-\[4px\] {
     padding-bottom: 4px;
   }
 
   .lg\:pt-\[4px\] {
     padding-top: 4px;
+  }
+
+  .lg\:pt-\[3px\] {
+    padding-top: 3px;
   }
 
   .lg\:text-left {
@@ -1248,5 +1326,15 @@ video {
 
   .lg\:font-medium {
     font-weight: 500;
+  }
+
+  .lg\:text-red-600 {
+    --tw-text-opacity: 1;
+    color: rgb(220 38 38 / var(--tw-text-opacity));
+  }
+
+  .lg\:text-green-600 {
+    --tw-text-opacity: 1;
+    color: rgb(22 163 74 / var(--tw-text-opacity));
   }
 }
