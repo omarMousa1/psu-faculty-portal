@@ -17,7 +17,9 @@ export const Homepage = () => {
         <CountProfiles />
       </div>
       <ProfilesIDList />
-      <PageLink />
+      <div className="lg:px-20">
+        <PageLink />
+      </div>
 
       <Footer />
     </div>

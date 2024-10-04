@@ -7,7 +7,7 @@ export const PageLink = () => {
         <li>
           <a
             href="http://#"
-            className="lg:px-3 lg:py-[8px] md:px-3 md:py-[8px] px-3 py-[8px] border rounded-l-md text-base text-[#777] border-[#ddd]"
+            className="lg:px-3 lg:py-[8px] md:px-3 md:py-[8px] px-2 py-[8px] border rounded-l-md text-base text-[#777] border-[#ddd]"
           >
             Previous
           </a>
@@ -17,7 +17,7 @@ export const PageLink = () => {
           <li key={page}>
             <a
               href="http://#"
-              className={`lg:px-3 lg:py-[8px] md:px-3 md:py-[8px] px-3 py-[8px] border border-[#ddd] hover:bg-gray-200 ${
+              className={`lg:px-3 lg:py-[8px] md:px-3 md:py-[8px] px-2 py-[8px] border border-[#ddd] hover:bg-gray-200 ${
                 page === 1
                   ? "bg-[#337ab7] text-white border-[#337ab7]"
                   : "bg-white text-[#337ab7]"
@@ -31,7 +31,7 @@ export const PageLink = () => {
         <li>
           <a
             href="http://#"
-            className="lg:px-3 lg:py-[8px] md:px-3 md:py-[8px] px-3 py-[8px] border rounded-r-md text-[#337ab7] text-base border-[#ddd]"
+            className="lg:px-3 lg:py-[8px] md:px-3 md:py-[8px] px-2 py-[8px] border rounded-r-md text-[#337ab7] text-base border-[#ddd]"
           >
             Next
           </a>
