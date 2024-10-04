@@ -3,7 +3,7 @@ import { Cards } from "./Cards";
 
 export const ProfilesIDList = () => {
   return (
-    <div className="grid grid-cols-1 gap-y-5 place-items-center md:grid-cols-2">
+    <div className="grid grid-cols-1 gap-6 place-items-center md:grid-cols-2 lg:grid-cols-2">
       <Cards
         picture="https://facultyportal.psu.edu.sa/assets/img/fp.png"
         name="Dr. Abdul Aabid"

@@ -13,7 +13,7 @@ export const Cards = ({ picture, name, position, college }) => {
         </h3>
         <span className="w-full block text-center relative">
           <div className="absolute top-0 left-0 w-full border-t-2 border-black opacity-15"></div>
-          <p className="relative text-[#116f8f] text-xs m-2 z-10 text-left lg:text-sm lg:my-2 lg:mx-0">
+          <p className="relative text-[#116f8f] text-center text-xs m-2 z-10 lg:text-left lg:text-sm lg:my-2 lg:mx-0">
             {college}
           </p>
         </span>

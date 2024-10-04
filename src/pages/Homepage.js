@@ -11,11 +11,14 @@ export const Homepage = () => {
   return (
     <div className="font-helvetica">
       <Header />
-      <Navbar />
-      <ProfilesID />
-      <CountProfiles />
+      <div className="md:px-3 lg:px-20">
+        <Navbar />
+        <ProfilesID />
+        <CountProfiles />
+      </div>
       <ProfilesIDList />
       <PageLink />
+
       <Footer />
     </div>
   );
