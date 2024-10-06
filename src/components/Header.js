@@ -3,7 +3,7 @@ import React from "react";
 export const Header = () => {
   return (
     <header className="w-full bg-[#14406e]">
-      <div className="flex justify-between items-center md:max-w-5xl lg:max-w-5xl md:px-20 lg:px-0 lg:mx-auto py-6">
+      <div className="flex justify-between items-center md:max-w-5xl px-5 lg:max-w-5xl md:px-20 lg:px-0 lg:mx-auto py-6">
         <p className="text-white text-center sm:text-xl md:text-2xl lg:text-5xl">
           PSU <br className="sm:hidden" /> Faculty Portal
         </p>
