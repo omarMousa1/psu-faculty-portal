@@ -2,8 +2,8 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="">
-      <div className="flex justify-between items-center p-4 md:hidden">
+    <nav>
+      <div className="flex justify-between items-center py-4 md:hidden">
         <p className="text-[#777] font-normal">Faculty Portal</p>
         <button
           type="button"
@@ -15,7 +15,7 @@ export const Navbar = () => {
         </button>
       </div>
 
-      <div className="hidden md:flex md:items-center md:p-6 md:gap-x-2">
+      <div className="hidden md:flex md:items-center md:py-6 md:gap-x-2">
         <button
           type="button"
           className="bg-[#428bca] border-[#428bca] text-[26px] px-4 py-2 rounded text-white"
