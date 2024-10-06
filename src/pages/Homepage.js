@@ -8,7 +8,7 @@ import { PageLink } from "../components/PageLink";
 export const Homepage = () => {
   return (
     <main className="font-helvetica md:flex lg:flex md:flex-col lg:flex-col md:justify-center lg:justify-center md:items-center lg:items-center">
-      <div className="px-5 md:px-10 md:max-w-5xl lg:max-w-5xl">
+      <div className="px-5 md:px-10 lg:px-0 md:max-w-5xl lg:max-w-5xl">
         <Navbar />
         <ProfilesID />
         <CountProfiles />
